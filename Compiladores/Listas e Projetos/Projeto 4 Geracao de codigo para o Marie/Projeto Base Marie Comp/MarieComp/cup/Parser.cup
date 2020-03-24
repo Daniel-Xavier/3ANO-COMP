@@ -1,0 +1,67 @@
+// CUP specification for a simple expression evaluator (w/ actions)
+
+package parser;
+import java_cup.runtime.*;
+import java.util.Hashtable;
+
+parser code
+{:
+    public static final Hashtable<String, AST> environment = new Hashtable<>();
+    
+    public void printAST(AST ast) {
+        if(ast != null){
+            printAST(ast.getLeftAST());
+            printAST(ast.getRightAST());
+            System.out.println(ast);
+        }
+    }
+:}
+
+
+/* Terminals (tokens returned by the scanner). */
+terminal           SEMI, PLUS, MINUS;
+terminal           LPAREN, RPAREN, ATTRIB;
+terminal Integer   NUMBER;
+terminal String    ID;
+
+/* Non-terminals */
+non terminal           program, expr_list, expr_part;
+non terminal AST       expr;
+
+/* Precedences */
+precedence left ATTRIB;
+precedence left PLUS, MINUS;
+
+/* The grammar */
+
+program ::= expr_list {: CodeGenerator.generateAllCode(); :}
+    ;
+
+expr_list ::= expr_list expr_part 
+    | expr_part 
+    ;
+
+expr_part ::= expr:e {: //printAST(e); 
+                        ((CodeItem)e).generateCodeItem(new CodeGenerator() );
+                    :} SEMI
+    | error SEMI
+    ;
+
+expr ::= expr:e1 PLUS expr:e2 {: RESULT = new Operator('+', e1, e2); :}
+    | expr:e1 MINUS expr:e2 {: RESULT = new Operator('-', e1, e2); :}
+    | NUMBER:n {: RESULT = new Number(n); :}
+    | LPAREN expr:e RPAREN {: RESULT = e; :}
+    | ID:name ATTRIB expr:e 
+        {: 
+            environment.put(name, e);
+            RESULT = new Operator('=', new Identifier(name), e);
+        :}
+    | ID:name 
+        {: 
+            if(environment.containsKey(name)) {
+                RESULT = new Identifier(name);
+            } else {
+                throw new Exception("Identficador não definido!");    
+            }
+        :}
+    ;

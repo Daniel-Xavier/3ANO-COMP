@@ -1,1 +1,3 @@
-Esse repositori e referente as materias do 3 ano de engeenharia da computacao do Imt 
+# 3 Ano Comp
+
+ Repositório para todas as matérias do terceiro ano de Engenharia de Computação no Instituto Mauá de Tecnologia (IMT).

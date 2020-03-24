@@ -1,0 +1,265 @@
+/ Exemplo 1 - https://marie.js.org/
+
+/ Displays the main menu
+
+WHILE, 	LOAD		STR_BASE		/ load str_base into ac
+		ADD		ITR      			/ add index to str_base
+		STORE		INDEX			/ store (str_base + index) into ac
+		CLEAR						/ set ac to zero
+		ADDI		INDEX			/ get the value at ADDR
+		SKIPCOND	400				/ SKIP if ADDR = 0 (or null char)
+		JUMP		DO				/ jump to DO
+		JUMP		MENUSEL			/ JUMP to MENUSEL
+
+DO,		OUTPUT					/ output value at ADDR
+		LOAD		ITR 		/ load iterator into ac
+		ADD 		ONE 		/ increment iterator by one
+		STORE		ITR 		/ store ac in iterator
+		JUMP		WHILE 		/ jump to while
+
+END,		HALT
+ONE,		DEC		1
+ZERO, 	 	DEC 0
+ITR,		DEC		0
+INDEX,		HEX		0
+STR_BASE,	HEX		13		/ memory location of str
+STR,        HEX     50
+        HEX     61
+        HEX     72
+        HEX     61
+        HEX     20
+        HEX     66
+        HEX     61
+        HEX     7a
+        HEX     65
+        HEX     72
+        HEX     20
+        HEX     75
+        HEX     6d
+        HEX     61
+        HEX     20
+        HEX     6f
+        HEX     70
+        HEX     65
+        HEX     72
+        HEX     61
+        HEX     63
+        HEX     61
+        HEX     6f
+        HEX     20
+        HEX     73
+        HEX     65
+        HEX     6c
+        HEX     65
+        HEX     63
+        HEX     69
+        HEX     6f
+        HEX     6e
+        HEX     65
+        HEX     20
+        HEX     75
+        HEX     6d
+        HEX     61
+        HEX     20
+        HEX     6f
+        HEX     70
+        HEX     63
+        HEX     61
+        HEX     6f
+        HEX     3a
+        HEX     0a
+        HEX     31
+        HEX     2e
+        HEX     20
+        HEX     53
+        HEX     6f
+        HEX     6d
+        HEX     61
+        HEX     0a
+        HEX     32
+        HEX     2e
+        HEX     20
+        HEX     53
+        HEX     75
+        HEX     62
+        HEX     74
+        HEX     72
+        HEX     61
+        HEX     63
+        HEX     61
+        HEX     6f
+        HEX     0a
+        HEX     33
+        HEX     2e
+        HEX     20
+        HEX     4d
+        HEX     75
+        HEX     6c
+        HEX     74
+        HEX     69
+        HEX     70
+        HEX     6c
+        HEX     69
+        HEX     63
+        HEX     61
+        HEX     63
+        HEX     61
+        HEX     6f
+        HEX     0a
+        HEX     34
+        HEX     2e
+        HEX     20
+        HEX     44
+        HEX     69
+        HEX     76
+        HEX     69
+        HEX     73
+        HEX     61
+        HEX     6f
+        HEX     0a
+        HEX     0a
+        HEX     0a
+        HEX     0
+        
+
+  / MENU SELECT      
+MENUSEL,	INPUT
+			STORE MENUOPT
+            LOAD MENUOPT
+            JUMP CHECKSUM
+
+MENUOPT,	DEC		1
+
+CHECKSUM,	LOAD 		MENUOPT				/ LOAD MENUOPT into AC
+			SUBT		SUM					/ SUB MENUOPT FROM EXPECTED VALUE
+			SKIPCOND	400					/ SKIPCOND 400 (if AC = 0)
+			JUMP		CHECKSUB	/ JUMP to `else`
+			JUMP		SUMRUT				/ JUMP to `SUMRUT`
+
+CHECKSUB,	LOAD 		MENUOPT				/ LOAD MENUOPT into AC
+			SUBT		SUB					/ SUB MENUOPT FROM EXPECTED VALUE
+			SKIPCOND	400					/ SKIPCOND 400 (if AC = 0)
+			JUMP		CHECKMUL			/ JUMP to `else`
+			JUMP		SUBRUT				/ JUMP to `SUMRUT`
+
+CHECKMUL,	LOAD 		MENUOPT				/ LOAD MENUOPT into AC
+			SUBT		MUL					/ SUB MENUOPT FROM EXPECTED VALUE
+			SKIPCOND	400					/ SKIPCOND 400 (if AC = 0)
+			JUMP		CHECKDIV	/ JUMP to `else`
+			JUMP		MULRUT				/ JUMP to `SUMRUT`
+
+CHECKDIV,	LOAD 		MENUOPT				/ LOAD MENUOPT into AC
+			SUBT		DIV					/ SUB MENUOPT FROM EXPECTED VALUE
+			SKIPCOND	400					/ SKIPCOND 400 (if AC = 0)
+			JUMP		CHECKDUMB			/ JUMP to `else`
+			JUMP		DIVRUT				/ JUMP to `SUMRUT`
+
+CHECKDUMB,	JUMP		END				/ JUMP to `SUMRUT`
+    
+SUM,	DEC		1
+SUB,	DEC		2
+MUL,	DEC		3
+DIV,	DEC		4
+
+	/ SUM ROUTINE
+    
+SUMRUT,		INPUT
+			STORE SUM_A
+            INPUT
+			STORE SUM_B
+            LOAD  SUM_A
+            ADD   SUM_B
+            OUTPUT 
+            JUMP  WHILE
+
+SUM_A,		DEC 0
+SUM_B,		DEC 0
+  
+  / SUBTRACTION ROUTINE
+  
+SUBRUT,		INPUT
+			STORE SUB_A
+            INPUT
+			STORE SUB_B
+            LOAD  SUB_A
+            SUBT   SUB_B
+            OUTPUT 
+            JUMP  WHILE
+
+SUB_A,		DEC 0
+SUB_B,		DEC 0
+
+   / MULTIPLICATION ROUTINE
+
+MULRUT,		INPUT
+			Store MUL_A
+			INPUT
+			Store MUL_B
+            LOAD ZERO
+            STORE MUL_I
+            JUMP MULLOOP
+
+MULLOOP,    LOAD MUL_I
+         	ADD MUL_A
+         	STORE MUL_I
+
+         	LOAD MUL_B
+         	SUBT ONE
+         	STORE MUL_B
+
+         	SKIPCOND 400 / have we completed the multiplication?
+         	JUMP MULLOOP/ no; repeat loop
+         	/ yes, so exit the loop
+            JUMP MULEXT
+
+MULEXT, 	LOAD MUL_I
+			OUTPUT
+			JUMP WHILE
+
+MUL_A, DEC 0
+MUL_B, DEC 0
+MUL_I, DEC 0
+
+  / DIVISION ROUTINE
+
+DIVRUT,		INPUT
+			STORE DIV_A
+            INPUT
+            STORE DIV_B
+      		LOAD ZERO
+            STORE DIV_C
+            
+DIVLOOP,	LOAD DIV_A
+            SUBT DIV_B            
+            STORE DIV_A
+            LOAD DIV_C
+            ADD ONE
+            STORE DIV_C
+            LOAD DIV_A
+            SUBT ONE
+            SKIPCOND 000
+            JUMP DIVLOOP
+			JUMP DIVEND
+            
+DIVEND,		LOAD DIV_A
+			SKIPCOND 400
+            JUMP DIVCORRET
+            JUMP DIVSHOW
+     
+DIVCORRET, 	LOAD DIV_C
+			SUBT ONE
+            STORE DIV_C
+            LOAD DIV_A
+            ADD DIV_B
+            STORE DIV_A
+            LOAD DIVSHOW
+
+DIVSHOW,    LOAD DIV_C
+			OUTPUT
+            LOAD DIV_A
+            OUTPUT
+            JUMP WHILE
+
+DIV_A, DEC 0
+DIV_B, DEC 0
+DIV_C, DEC 0

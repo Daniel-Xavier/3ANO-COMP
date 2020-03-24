@@ -1,0 +1,37 @@
+// CUP specification for type declarations
+
+package parser;
+import java_cup.runtime.*;
+
+parser code {:
+	private Integer current_type;
+:}
+
+
+/* Terminals (tokens returned by the scanner). */
+terminal           COMMA, SEMI;
+terminal Integer   INT, FLOAT;
+terminal String	   ID;
+
+/* Non-terminals */
+non terminal            decl_seq, decl, var_list;
+non terminal Integer    type;
+
+/* The grammar */
+
+decl_seq ::= decl
+    | decl_seq decl
+    ;
+
+decl ::= type:t {: current_type = t; :} var_list SEMI
+        | error SEMI
+        ;
+
+type ::= INT:v {: RESULT = v; :}
+	| FLOAT:v {: RESULT = v; :}
+	;
+	
+var_list ::= ID:id COMMA var_list {: System.out.println(id); :}
+	| ID:id {: System.out.println(id); :}
+	;
+

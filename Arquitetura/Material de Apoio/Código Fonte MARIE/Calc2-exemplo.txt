@@ -1,0 +1,95 @@
+Input
+Store esc
+
+optneg, Skipcond 000
+		Jump opt0
+        Jump ERROR
+
+opt0, 	Skipcond 400
+		Jump opt1
+        Jump ERROR
+
+opt1,	Subt one
+		Skipcond 400
+		Jump opt2
+		Jump soma
+
+opt2,	Subt one
+		Skipcond 400
+		Jump opt3
+		Jump subtracao
+
+opt3,	Subt one
+		Skipcond 400
+        Jump opt4
+		Jump multiplicacao
+            
+opt4,	Subt one
+		Skipcond 400
+        Jump ERROR
+		Jump divisao
+
+soma,	Input
+		Store X
+		Input 
+		Store Y
+		Add X		
+        Jump final
+
+
+subtracao,	Input
+			Store X
+			Input 
+			Store Y
+			Load X
+			Subt Y
+			Jump final
+
+multiplicacao,	INPUT
+				Store X
+				INPUT
+				Store Y
+
+loopm,  Load num
+		Add X
+        Store num
+        Load Y
+        Subt one
+        Store Y
+        Skipcond 400
+        Jump loopm
+
+Load num
+Jump final
+
+divisao,	INPUT
+			Store X
+			INPUT
+			Store Y
+			Load num
+			add Y
+			Store num
+
+loopd,   Load X
+         Subt Y
+         Store X
+         Load num
+         Subt one
+         Store num
+         Skipcond 400
+         Jump loopd
+
+Load Y
+Jump final
+
+ERROR, Halt
+
+final,		Output
+			Halt
+
+
+X, DEC 0
+Y, DEC 0
+num, DEC 0
+one, DEC 1
+esc, DEC 0

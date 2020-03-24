@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{shortvrb}
+\usepackage{etoolbox}
+\AtBeginEnvironment{align}{\setcounter{equation}{0}}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+%https://www.overleaf.com/project/5e6fd1e6a3b4920001a15224
+
+\title{
+    \textbf{Tópicos Avançados em\\Estrutura de Dados\\}
+    \medskip
+    Atividade 2
+}
+\author{
+\begin{tabular}{l r}
+    Bruna Galastri Guedes & 18.00189-0 \\
+    Daniel Ughini Xavier & 18.00022-3 \\
+    Leonardo de Barros Rodrigues & 18.02401-7 \\
+    Rodolfo Cochi &  18.00202-0 \\
+    Vítor Martin Simoni & 18.00050-9    
+\end{tabular}
+}
+\date{15/03/2020}
+\begin{document}
+\maketitle
+\pagebreak
+
+% 1 =======================================================
+\section*{Questão 1}
+\noindent
+\textbf{a)} Tendo como base o seguinte algoritmo InsertionSort, implementado na linguagem C:
+\\
+
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        void insertionSortCrescente(int array[ ], int tamanho)\{
+        
+        \tab int i, j, tmp;
+        
+        \tab for (i = 1; i $<$ tamanho; i++)\{
+        
+        \tab \tab j = i;
+        
+        \tab \tab while (j $>$ 0 \&\& array[j - 1] $>$ array[j])\{
+        
+        \tab \tab \tab tmp = array[j];
+        
+        \tab \tab \tab array[j] = array[j - 1];
+        
+        \tab \tab \tab array[j - 1] = tmp;
+        
+        \tab \tab \tab j--;
+        
+        \tab \tab \}
+        
+        \tab \}
+
+        \}
+    }%
+}
+\\
+
+Foi realizada a análise de complexidade da seguinte forma:
+\\
+
+O pior caso a ser considerado para o algoritmo acima seria pedir a ordenação de um vetor de tamanho "n" que estivesse em ordem decrescente, pois nesse caso seriam necesários 2(n-i) operações para cada elemento percorrido na sequência.
+Por exemplo, se um vetor com ordenação decrescente for percorrida pelo algotritmo, último elemento é trocado e comparado (n-1) vezes, o penúltimo elemento, (n-2) vezes, e assim por diante. Com isso, o número de operações realizadas é 2*(1 + 2...n-2 + n-1), dependendo do número de elementos do vetor. Reescrevendo tal conta de forma genérica, temos:
+
+$$\sum_{\substack {q=1}}^{p} {q} = \frac{p(p+1)}{2}$$
+
+E para o pior caso temos:
+
+$$\frac{2(n-1)(n)}{2} = (n-1)(n) \longrightarrow O(n^2)$$
+
+Portanto o algoritmo possui complexidade $(n^{2})$ atuando no pior caso.
+
+\end{document}

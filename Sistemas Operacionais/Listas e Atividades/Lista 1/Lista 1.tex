@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{amsmath}
+
+\title{\textbf{
+    SISTEMAS OPERACIONAIS \\
+    Lista 1
+    }
+}
+\author{
+\begin{tabular}{l r}
+    Bruna Galastri Guedes & 18.00189-0 \\
+    Daniel Ughini Xavier  & 18.00022-3 \\
+    Leonardo Cury Haddad  & 18.00442-3 \\
+    Rodolfo Cochi         & 18.00202-0 \\
+    Vítor Martin Simoni   & 18.00050-9
+\end{tabular}
+}
+\date{02/03/2020}
+
+\begin{document}
+\maketitle
+\pagebreak
+
+% 1 ===========================================================
+\section*{1. \large Quais são as duas principais funções de um sistema operacional?}
+
+\medskip
+\noindent
+\textbf{R:} Controlar o Hardware e permitir a execução de softwares.
+
+% 2 ===========================================================
+\section*{2. \large Qual é a diferença entre os sistemas timesharing e multiprogramação?}
+
+\medskip
+\noindent
+\textbf{R:} O timesharing, possibilita que vários programas sejam executados através de uma divisão de tempo do processador em intervalos curtos enquanto multiprogramação é uma evolução dos programas de monoprogramação. Possibilitando, por exemplo, que enquanto um programa esteja em operação de leitura outros possam ser executados.
+
+% 3 ===========================================================
+\section*{3. \large Nos primeiros computadores, cada byte de dados lidos ou escritos era manipulado pela CPU (ou seja, não havia DMA – acesso direto à memória, que dispensa a CPU de ficar manipulando os dados de/para memória). Que implicações isso tem para a multiprogramação?}
+
+\medskip
+\noindent
+\textbf{R:} Já que com a multiprogramação você tem vários processos sendo executados sequencialmente com alternância rápida e constante, se todas operações de dados envolverem E/S, sempre que pelo menos um dos processos estiver executando E/S, todos os outros tëm que esperar pelo término da operação. Isto pode trazer perda de desempenho muito grande ao sistema.
+
+% 4 ===========================================================
+\section*{4. \large As instruções relacionadas ao acesso a dispositivos de E/S são geralmente instruções privilegiadas, isto é, elas podem ser executadas no modo kernel, mas não no modo de usuário. Dê uma razão pela qual essas instruções são privilegiadas.}
+
+\medskip
+\noindent 
+\textbf{R:} Uma razão para que as instruções de acesso a dispositivos E/S sejam geralmente privilegiadas é para preservar uma única forma de acesso aos hardwares. Antigamente, existiam diversas soluções para os mesmos comandos, e elas nem sempre funcionavam da forma esperada; com a introdução de apenas um comando oficial, no kernel, que funciona, a necessidade de programação de hardware pelo usuário é inexistente. Sendo assim, as instruções de acesso são consideradas privilegiadas.
+
+% 5 ===========================================================
+\section*{5. \large Qual é a diferença entre o modo kernel e o modo de usuário? Explique como ter dois distintos modos ajuda na criação de um sistema operacional.}
+
+\medskip
+\noindent
+\textbf{R:} A principal diferença entre o modo usuario para o modo kernel é que neste se tem acesso irrestrito ao conjunto de instruções da máquina.
+
+% 6 ===========================================================
+\section*{6. \large Uma CPU tem um pipeline com quatro etapas. Cada estágio leva o mesmo tempo para fazer o trabalho e que é 1ns. Quantas instruções por segundo esta máquina pode executar?}
+
+\medskip
+\noindent
+\textbf{R:}Tendo em mente que a CPU tem um pipeline com quatro etapas e que cada estágio leva 1ns para ser concluído, temos que cada instrução leva 4ns para ser executada, portanto em um intervalo de 1s poderão ser executadas um total de $2,5.10^8$ instruções.
+
+% 7 ===========================================================
+\section*{7. \large As máquinas virtuais tornaram-se muito populares por vários motivos. Mesmo assim, elas têm algumas desvantagens. Nomeie uma.}
+
+\medskip
+\noindent
+\textbf{R:} Uma das desvantagens do uso de máquinas virtuais é a sobregarga de tarefas que o uso exagerado das mesmas pode causar, levando a um mal funcionamneto ou até mesmo a falha de todas. Outra desvantagem relacionada ao uso de máquinas virtuais, é que caso tenha problema de vulnerabilidade em apenas uma, as outras podem ser comprometidas também.
+
+% 8 ===========================================================
+\section*{8. \large Em todos os computadores atuais, pelo menos parte dos tratadores de interrupção são escritos em linguagem assembly. Por quê?}
+
+\medskip
+\noindent
+\textbf{R:} Parte dos tratadores de interrupção são escritos em linguagem de máquina porque ações como salvar os registradores e alterar o ponteiro de pilha não podem ser expressas em linguagens de alto nível, assim elas são implementadas por uma pequena rotina em linguagem assembly.
+
+% 9 ===========================================================
+\section*{9. \large Quando uma interrupção ou uma chamada do sistema transfere o controle para o sistema operacional, uma área de pilha do kernel, separada do processo que foi interrompido, é geralmente usada. Por quê?}
+
+\medskip
+\noindent
+\textbf{R: } Uma área separada no kernel é utilizada para guardar o endereço do local de retorno no código; quando a chamada de função é finalizada, o local de retorno do código, armazenado no kernel (maior proteção), é acessado.
+
+\end{document}

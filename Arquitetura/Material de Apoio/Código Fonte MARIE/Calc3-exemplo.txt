@@ -1,0 +1,95 @@
+﻿Clear
+Input
+Store Operacao
+Load Operacao
+Subt Um
+Skipcond 400
+Jump Continuar1
+Jump Soma
+
+Continuar1,	Subt Um
+		Store Operacao
+		Skipcond 400
+		Jump Continuar2
+		Jump Subtracao
+
+Continuar2,	Subt Um
+		Store Operacao
+		Skipcond 400
+		Jump Continuar3
+		Jump Multiplicacao
+
+Continuar3,	Subt Um
+		Store Operacao	
+		Jump Divisao
+
+Soma,	Input
+	Store A
+	Input
+	Store B
+	Load A
+	Add B
+	Store A
+	Jump Fim
+
+
+Subtracao,	Input
+		Store A
+		Input
+		Store B
+		Load A
+		Subt B
+		Store A
+		Jump Fim
+
+Multiplicacao,	Input
+		Store A
+		Input
+		Store B
+		Jump LoopMult
+
+LoopMult,	Load Aux
+		Add A
+		Store Aux
+		
+		Load B
+		Subt Um
+		Store B
+		
+		Skipcond 400
+		Jump LoopMult
+
+Load Aux
+Jump Fim
+
+Divisao,	Input
+		Store A
+		Input
+		Store B
+		Jump LoopDiv
+
+LoopDiv,	Load Aux
+		Add Um
+		Store Aux
+
+		Load A
+		Subt B
+		Store A
+
+		Skipcond 400
+		Jump LoopDiv
+
+Load Aux
+Jump Fim
+
+Fim,	Output
+	Load Aux
+	Subt Aux
+	Store Aux
+	Halt
+
+A, DEC 0
+B, DEC 0
+Aux, DEC 0
+Um, DEC 1
+Operacao, DEC 0
