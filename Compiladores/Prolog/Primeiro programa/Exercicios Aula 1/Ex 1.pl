@@ -8,4 +8,3 @@ irmao(A,B) :-
 
 primo(A,B) :-
     irmao(X,Y), pai(X,A), pai(Y,B).
-
