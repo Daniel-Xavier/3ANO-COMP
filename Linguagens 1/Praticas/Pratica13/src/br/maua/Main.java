@@ -1,4 +1,4 @@
-package maua.prova;
+package br.maua;
 
 public class Main {
 
