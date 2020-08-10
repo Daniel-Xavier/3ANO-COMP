@@ -1,7 +1,7 @@
 package br.maua;
 
 import br.maua.arvore.Arvore;
-import br.maua.arvore.ArvoreUtils;
+import br.maua.arvore.Arvoreu;
 import br.maua.arvore.No;
 
 public class Main {
@@ -43,29 +43,29 @@ public class Main {
         arvore.adicionarNo(no7,no0);
         arvore.adicionarNo(no7,no6);
         arvore.adicionarNo(no8,no21);
-        arvore.adicionarNo(no8,no12);
+       // arvore.adicionarNo(no8,no12);
 
         //Roda alguns dos métodos
         System.out.println("---- Preorder ----");
-        ArvoreUtils.preorder(no5);
+        Arvoreu.preorder(no5);
         System.out.println("---- Posorder ----");
-        ArvoreUtils.posorder(no5);
+        Arvoreu.posorder(no5);
 
         System.out.println("---------------------");
         System.out.println("---- Filhos do 5 ----");
-        ArvoreUtils.imprimeFilhos(no5);
+        Arvoreu.imprimeFilhos(no5);
         System.out.println("---- Pai do 8 ----");
-        ArvoreUtils.imprimePai(no8);
+        Arvoreu.imprimePai(no8);
 
-        ArvoreUtils.dobraFilhos(no5);
+        Arvoreu.dobraFilhos(no5);
         System.out.println("---- Filhos do 8 dobrados ----");
         System.out.println("-------   Filhos do 8   ------");
-        ArvoreUtils.imprimeFilhos(no5);
+        Arvoreu.imprimeFilhos(no5);
 
-        ArvoreUtils.dobraPai(no2);
+        Arvoreu.dobraPai(no2);
         System.out.println("---- Pai do 2 dobrado ----");
         System.out.println("------   Pai do 2   ------");
-        ArvoreUtils.imprimePai(no2);
+        Arvoreu.imprimePai(no2);
         System.out.println("*Repare que o valor já havia sido dobrado anteriormente");
 
     }

@@ -1,7 +1,6 @@
 package br.maua.arvore;
 
-
-public class ArvoreUtils {
+public class Arvoreu {
 
     //As funções/métodos pedidos no exercício estão definidas nessa classe
 
@@ -40,12 +39,12 @@ public class ArvoreUtils {
 
     public static void preorder(No no ){
         System.out.println(no);
-        no.pegarFilhos().forEach(ArvoreUtils::preorder);
+        no.pegarFilhos().forEach(Arvoreu::preorder);
     }
 
     public static void posorder(No no ){
         imprimeFilhosFolhas(no);
-        no.pegarFilhos().forEach(ArvoreUtils::posorder);
+        no.pegarFilhos().forEach(Arvoreu::posorder);
         if (ehInterno(no)) System.out.println(no);
     }
 }
