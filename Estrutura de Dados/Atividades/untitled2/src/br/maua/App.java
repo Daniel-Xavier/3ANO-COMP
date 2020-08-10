@@ -1,60 +1,40 @@
 package br.maua;
-import java.util.Scanner;
 
-public class App {
+import br.maua.enums.Lado;
+import br.maua.interfaces.Menu;
+import br.maua.models.Arvore;
+import br.maua.models.No;
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Tree arv = new Tree();
-        int opcao;
-        long x;
-        int d, e;
-        System.out.print("\n Programa Arvore binaria de long");
-        do {
-            System.out.print("\n***********************************");
-            System.out.print("\nEntre com a opcao:");
-            System.out.print("\n -1: Inserir");
-            System.out.print("\n -2: Excluir");
-            System.out.print("\n -3: Pesquisar");
-            System.out.print("\n -4: Exibir");
-            System.out.print("\n -5: Sair do programa");
-            System.out.print("\n***********************************");
-            System.out.print("\n-> ");
-            opcao = scanner.nextInt();
-            switch(opcao) {
-                case 1: {
-                    System.out.print("\n Informe o valor do no e seus filhos (d,e) ");
-                    x = scanner.nextLong();
-                    d = scanner.nextInt();
-                    e = scanner.nextInt();
-                    arv.inserir(x,d,e);
-                    break;
-                }
-                case 2: {
-                    System.out.print("\n Informe o valor (long) -> ");
-                    x = scanner.nextLong();
-                    if ( !arv.remover(x) )
-                        System.out.print("\n Valor nao encontrado!");
-                    break;
-                }
-                case 3: {
-                    System.out.print("\n Informe o valor (long) -> ");
-                    x = scanner.nextLong();
-                    if( arv.buscar(x) != null )
-                        System.out.print("\n Valor Encontrado");
-                    else
-                        System.out.print("\n Valor nao encontrado!");
-                    break;
-                }
-                case 4: {
-                    arv.caminhar();
-                    break;
-                }
-            } // fim switch
-        } while(opcao != 5);
+public class App implements Menu {
+    public static void main(String[] args) throws Exception {
+        // Iniciando arvore
+        System.out.println("--------------------");
+        System.out.println("Iniciando arvore com raiz nao nula");
+        Arvore arv = new Arvore(new No(0));
+        System.out.println(arv);
 
+        // Inserindo filhos
+        System.out.println("--------------------");
+        System.out.println("Inserindo nos");
+        arv.inserirNo(new No(arv.getNoPorIndice(0), 1, Lado.ESQ)); // 1
+        arv.inserirNo(new No(arv.getNoPorIndice(0), 2, Lado.DIR)); // 2
+        arv.inserirNo(new No(arv.getNoPorIndice(2), 3, Lado.ESQ)); // 3
+        arv.inserirNo(new No(arv.getNoPorIndice(2), 4, Lado.DIR)); // 4
+        arv.inserirNo(new No(arv.getNoPorIndice(3), 5, Lado.ESQ)); // 5
+        arv.inserirNo(new No(arv.getNoPorIndice(3), 6, Lado.DIR)); // 6
+        System.out.println(arv);
+
+        // Percorrendo arvore
+        System.out.println("--------------------");
+        System.out.println("Percorrendo arvore");
+
+        // Pre Order
+        System.out.println("  preOrder : " + arv.preOrder());
+
+        // In Order
+        System.out.println("   inOrder : " + arv.inOrder());
+
+        // Pos Order
+        System.out.println("  posOrder : " + arv.posOrder());
     }
-
-
-
 }
