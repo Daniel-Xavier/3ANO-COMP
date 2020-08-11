@@ -29,17 +29,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TesteEscrita">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="xavier.daniel.Main" />
-      <module name="Pratica13" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TesteLeitura">
     <configuration name="TesteDesserializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.serialiacao.TesteDesserializar" />
       <module name="Pratica13" />
@@ -73,6 +63,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.arquivo.TesteLeitura" />
+      <module name="Pratica13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.maua.implementacoes.arquivo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteSerializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.serialiacao.TesteSerializar" />
       <module name="Pratica13" />
@@ -88,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteLeitura" />
         <item itemvalue="Application.TesteEscrita" />
         <item itemvalue="Application.TesteDesserializar" />
         <item itemvalue="Application.TesteSerializar" />
         <item itemvalue="Application.TesteJogo" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,21 +118,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597102097362" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597102734842">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597105197026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597102734842" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597102734842">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105197026" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597105197025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597102734842" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597102734842">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105197025" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597105197025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597102734842" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597102734842">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105197025" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597105197025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597102734842" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105197025" />
   </component>
 </project>
