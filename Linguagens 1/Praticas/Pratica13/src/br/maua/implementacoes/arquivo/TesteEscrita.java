@@ -17,10 +17,12 @@ public class TesteEscrita {
 
             //Escrever no arquivo
             bufferedWriter.write("Ola mundo arquivos!\n");
-            bufferedWriter.write("LALALA!\n");
-            bufferedWriter.write("2+2 = peixa ou " + 2 );
+            bufferedWriter.write("Demon slayer melhor anime\n");
+            bufferedWriter.write("2+2 = " + (2+2) );
+
             //Força escrita na hora
             //bufferedWriter.flush();
+
             //Fechar o buffer e escreve no arquivo
             bufferedWriter.close();
             //Fecha os demais fluxos
