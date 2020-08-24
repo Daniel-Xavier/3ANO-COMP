@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ebb59a4-6eb6-417d-924b-d2fa811f98ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/ecm251.maua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/jogos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/nome.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/TesteEscrita.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/enumeracoes/Status$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/enumeracoes/Status$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/enumeracoes/Status$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/enumeracoes/Status$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/enumeracoes/Status$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/enumeracoes/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/implementacoes/arquivo/TesteLeitura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/implementacoes/json/TesteJson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/implementacoes/json/TesteJsonArquivo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/implementacoes/serialiacao/Pessoa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteDesserializar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteSerializar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/projeto/model/Jogo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/projeto/model/ListaDeJogos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/projeto/parsers/JogoParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/projeto/parsers/ListaDeJogosParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/projeto/parsers/StatusParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/projeto/teste/TesteJogo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/out/production/Pratica13/br/maua/projeto/teste/TesteListaDeJogos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/enumeracoes/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/implementacoes/arquivo/TesteEscrita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/implementacoes/arquivo/TesteLeitura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/implementacoes/json/TesteJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/implementacoes/json/TesteJsonArquivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/implementacoes/serialiacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/implementacoes/serialiacao/TesteDesserializar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/implementacoes/serialiacao/TesteSerializar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/projeto/model/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/projeto/model/ListaDeJogos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/projeto/parsers/JogoParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/projeto/parsers/ListaDeJogosParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/projeto/parsers/StatusParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/projeto/teste/TesteJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/src/br/maua/projeto/teste/TesteListaDeJogos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banca de Jornal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Praticas/Pratica13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/Pratica13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Praticas/Pratica13(Json)/Pratica13.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/ecm251.maua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/jogos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/nome.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/TesteEscrita.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/implementacoes/arquivo/TesteLeitura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/implementacoes/json/TesteJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/implementacoes/json/TesteJsonArquivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/implementacoes/serialiacao/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteDesserializar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteSerializar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/projeto/model/Jogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/projeto/model/ListaDeJogos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/projeto/parsers/JogoParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/projeto/parsers/ListaDeJogosParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/projeto/parsers/StatusParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/projeto/teste/TesteJogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/out/production/Pratica13/br/maua/projeto/teste/TesteListaDeJogos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/enumeracoes/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/implementacoes/arquivo/TesteEscrita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/implementacoes/arquivo/TesteLeitura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/implementacoes/json/TesteJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/implementacoes/json/TesteJsonArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/implementacoes/serialiacao/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/implementacoes/serialiacao/TesteDesserializar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/implementacoes/serialiacao/TesteSerializar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/projeto/model/Jogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/projeto/model/ListaDeJogos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/projeto/parsers/JogoParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/projeto/parsers/ListaDeJogosParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/projeto/parsers/StatusParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/projeto/teste/TesteJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Praticas/Pratica13/src/br/maua/projeto/teste/TesteListaDeJogos.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1gYk9IxDg1nkf9SEvklqTjqTWqo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="br.maua.Main" />
+      <module name="Banca de Jornal" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ebb59a4-6eb6-417d-924b-d2fa811f98ff" name="Default Changelist" comment="" />
+      <created>1598298761136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598298761136</updated>
+    </task>
+    <servers />
+  </component>
+</project>
