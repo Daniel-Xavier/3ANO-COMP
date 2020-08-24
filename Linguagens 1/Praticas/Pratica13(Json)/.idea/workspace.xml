@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40380532-2290-4f14-8363-00aacf9d7498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecm251.maua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jogos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nome.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/TesteEscrita.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/enumeracoes/Status$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/enumeracoes/Status$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/enumeracoes/Status$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/enumeracoes/Status$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/enumeracoes/Status$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/enumeracoes/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/arquivo/TesteLeitura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/json/TesteJson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/json/TesteJsonArquivo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/serialiacao/Pessoa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteDesserializar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteSerializar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/model/Jogo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/model/ListaDeJogos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/parsers/JogoParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/parsers/ListaDeJogosParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/parsers/StatusParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/teste/TesteJogo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/teste/TesteListaDeJogos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/enumeracoes/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/arquivo/TesteEscrita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/arquivo/TesteLeitura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJsonArquivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/serialiacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/serialiacao/TesteDesserializar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/serialiacao/TesteSerializar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/model/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/model/ListaDeJogos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/JogoParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/ListaDeJogosParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/StatusParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/teste/TesteJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/teste/TesteListaDeJogos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/Projetos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projetos/src/br/maua/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/Pratica13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pratica13.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/ecm251.maua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/jogos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/nome.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/TesteEscrita.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/enumeracoes/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/implementacoes/arquivo/TesteLeitura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/implementacoes/json/TesteJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/implementacoes/json/TesteJsonArquivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/implementacoes/serialiacao/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteDesserializar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/implementacoes/serialiacao/TesteSerializar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/projeto/model/Jogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/projeto/model/ListaDeJogos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/projeto/parsers/JogoParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/projeto/parsers/ListaDeJogosParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/projeto/parsers/StatusParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/projeto/teste/TesteJogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/out/production/Pratica13/br/maua/projeto/teste/TesteListaDeJogos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/enumeracoes/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/implementacoes/arquivo/TesteEscrita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/implementacoes/arquivo/TesteLeitura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/implementacoes/json/TesteJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/implementacoes/json/TesteJsonArquivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/implementacoes/serialiacao/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/implementacoes/serialiacao/TesteDesserializar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/implementacoes/serialiacao/TesteSerializar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/projeto/model/Jogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/projeto/model/ListaDeJogos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/projeto/parsers/JogoParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/projeto/parsers/ListaDeJogosParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/projeto/parsers/StatusParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/projeto/teste/TesteJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/src/br/maua/projeto/teste/TesteListaDeJogos.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1fvTg9NOLaeObrfy3jhXhZmtYXo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.maua.parsers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TesteJsonArquivo">
+    <configuration name="TesteEscrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteEscrita" />
+      <module name="Pratica13" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteJogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.maua.projeto.teste.TesteJogo" />
+      <module name="Pratica13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.maua.projeto.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.json.TesteJson" />
+      <module name="Pratica13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.maua.implementacoes.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteJsonArquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.json.TesteJsonArquivo" />
+      <module name="Pratica13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.maua.implementacoes.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.arquivo.TesteLeitura" />
+      <module name="Pratica13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.maua.implementacoes.arquivo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TesteJsonArquivo" />
+        <item itemvalue="Application.TesteJson" />
+        <item itemvalue="Application.TesteLeitura" />
+        <item itemvalue="Application.TesteJogo" />
+        <item itemvalue="Application.TesteEscrita" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40380532-2290-4f14-8363-00aacf9d7498" name="Default Changelist" comment="" />
+      <created>1597097674517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597097674517</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597102097362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597102097362" />
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1598295740060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598295740060" />
+    <state x="756" y="426" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598290278119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="426" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598290278119" />
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1598298282948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598298282948" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598298607983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598298607983" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598298607983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598298607983" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598298607983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598298607983" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598298607983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598298607983" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1598292381564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598292381564" />
+    <state x="551" y="140" key="new project wizard" timestamp="1598298286674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598298286674" />
+  </component>
+</project>
