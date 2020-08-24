@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40380532-2290-4f14-8363-00aacf9d7498" name="Default Changelist" comment="" />
+    <list default="true" id="40380532-2290-4f14-8363-00aacf9d7498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Arquivos.jar/json-20200518.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Arquivos.jar/sqlite-jdbc-3.27.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJsonArquivos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/JogoParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/ListaDeJogoParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/StatusParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pratica13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pratica13.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica13/br/maua/model/Jogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica13/br/maua/model/ListaDeJogos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica13/br/maua/teste/TesteJogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica13/br/maua/teste/TesteListaDeJogos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/enumeracoes/Plataforma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/model/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/projeto/model/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/model/ListaDeJogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/projeto/model/ListaDeJogos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/teste/TesteJogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/projeto/teste/TesteJogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/teste/TesteListaDeJogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/projeto/teste/TesteListaDeJogos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../json-20200518.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +49,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Arquivos.jar/json-20200518.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.TesteLeitura">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.maua.parsers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TesteJson">
     <configuration name="TesteDesserializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.serialiacao.TesteDesserializar" />
       <module name="Pratica13" />
@@ -51,11 +83,24 @@
       </method>
     </configuration>
     <configuration name="TesteJogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.maua.teste.TesteJogo" />
+      <option name="MAIN_CLASS_NAME" value="br.maua.projeto.teste.TesteJogo" />
       <module name="Pratica13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.maua.teste.*" />
+          <option name="PATTERN" value="br.maua.projeto.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.json.TesteJson" />
+      <module name="Pratica13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.maua.implementacoes.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,26 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteSerializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.maua.implementacoes.serialiacao.TesteSerializar" />
-      <module name="Pratica13" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.maua.implementacoes.serialiacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteJson" />
         <item itemvalue="Application.TesteLeitura" />
+        <item itemvalue="Application.TesteJogo" />
         <item itemvalue="Application.TesteEscrita" />
         <item itemvalue="Application.TesteDesserializar" />
-        <item itemvalue="Application.TesteSerializar" />
-        <item itemvalue="Application.TesteJogo" />
       </list>
     </recent_temporary>
   </component>
@@ -118,21 +150,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597102097362" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597105483836">
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1598291046710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105483836" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597105483836">
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598291046710" />
+    <state x="756" y="426" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598290278119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105483836" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597105483836">
+    <state x="756" y="426" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598290278119" />
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1598290358602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105483836" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597105483836">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598290358602" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598293301142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597105483836" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598293301142" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598293301142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598293301142" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598293301142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598293301142" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598293301142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598293301142" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1598292381564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598292381564" />
   </component>
 </project>
