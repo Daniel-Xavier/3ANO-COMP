@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="40380532-2290-4f14-8363-00aacf9d7498" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/model/ListaDeJogos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/model/ListaDeJogos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJsonArquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJsonArquivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/maua/projeto/model/ListaDeJogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/projeto/model/ListaDeJogos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/maua/projeto/parsers/ListaDeJogoParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/ListaDeJogosParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/json/TesteJsonArquivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/implementacoes/json/TesteJsonArquivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/parsers/ListaDeJogosParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica13/br/maua/projeto/parsers/ListaDeJogosParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJsonArquivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/implementacoes/json/TesteJsonArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/projeto/parsers/ListaDeJogosParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/projeto/parsers/ListaDeJogosParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,22 +147,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598290358602" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598295938159">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598297897685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598295938159" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598295938159">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598297897685" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598297897685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598295938159" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598295938158">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598297897685" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598297897684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598295938158" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598295938159">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598297897684" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598297897685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598295938159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598297897685" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1598292381564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

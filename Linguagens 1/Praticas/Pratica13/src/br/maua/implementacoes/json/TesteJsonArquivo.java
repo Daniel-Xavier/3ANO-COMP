@@ -9,18 +9,18 @@ import java.io.*;
 
 public class TesteJsonArquivo {
     public static void main(String[] args) {
-        ListaDeJogos lista = new ListaDeJogos();
-        lista.addJogo(new Jogo("PC", "Minecraft"));
-        lista.addJogo(new Jogo("PC", "Cyberpunk"));
-        lista.addJogo(new Jogo("PC", "CS:Go"));
-        lista.addJogo(new Jogo("PC", "Terraria"));
-        lista.addJogo(new Jogo("PS4", "God of War"));
-        lista.addJogo(new Jogo("PS4", "The Last of Us"));
-        lista.addJogo(new Jogo("PS4", "ghost of tsushima"));
-
-        JSONArray json = ListaDeJogosParser.toJson(lista);
-        escreverArquivo("jogos.json", json);
-       // ListaDeJogos lista = ListaDeJogosParser.fromJson(lerArquivo("jogos.json"));
+//        ListaDeJogos lista = new ListaDeJogos();
+//        lista.addJogo(new Jogo("PC", "Minecraft"));
+//        lista.addJogo(new Jogo("PC", "Cyberpunk"));
+//        lista.addJogo(new Jogo("PC", "CS:Go"));
+//        lista.addJogo(new Jogo("PC", "Terraria"));
+//        lista.addJogo(new Jogo("PS4", "God of War"));
+//        lista.addJogo(new Jogo("PS4", "The Last of Us"));
+//        lista.addJogo(new Jogo("PS4", "ghost of tsushima"));
+//
+//        JSONArray json = ListaDeJogosParser.toJson(lista);
+//        escreverArquivo("jogos.json", json);
+        ListaDeJogos lista = ListaDeJogosParser.fromJson(lerArquivo("jogos.json"));
         System.out.println("Lista Carregada:");
         System.out.println("" + lista);
     }

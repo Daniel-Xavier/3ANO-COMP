@@ -1,12 +1,8 @@
 package br.maua.projeto.parsers;
 
-import br.maua.projeto.model.Jogo;
 import br.maua.projeto.model.ListaDeJogos;
 import org.json.JSONArray;
 import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ListaDeJogosParser {
     public static JSONArray toJson(ListaDeJogos lista){
