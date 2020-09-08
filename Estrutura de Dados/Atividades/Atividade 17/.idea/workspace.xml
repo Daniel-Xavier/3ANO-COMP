@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85287a7f-7494-4a0d-88f7-1c4043b47d92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividade 17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Atividade 17/br/maua/Aluno.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/maua/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/maua/Hash_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/Ex3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/src/br/maua/FlexAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Compiladores/Listas e Projetos/ListaLexica/Ex3/src/br/maua/SimpleLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/maua/Hash_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/maua/Hash_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +42,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="br.maua.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.maua.Hash_01" />
       <module name="Atividade 17" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -67,5 +70,27 @@
       <updated>1597761261551</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599571734158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599571734158" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1599571825138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599571825138" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1599571825138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599571825138" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1599571825138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599571825138" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1599571825138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599571825138" />
   </component>
 </project>

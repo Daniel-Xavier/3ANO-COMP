@@ -45,19 +45,11 @@ public class Hash_01 {
                 System.out.println("Slot " + i + " ---> Valor nulo");
             else
                 System.out.print ("Slot " + i + " ---> " +
-                        tabHash[i].getCodAluno() + " " + tabHash[i].getNome() + '\n')
-                        ;
+                        tabHash[i].getCodAluno() + " " + tabHash[i].getNome() + '\n');
     }
 
-    // -----------------------------------------------------------
-//    public static Integer hash(Integer key) {
-//    }
-
-
-//    3. Complementar a função hash no programa. Utilizar a função hash h = mod(n).
-//    4. Executar o código e avaliar a sua execução.
-//    5. Houve colisões? Em caso afirmativo, quantas e quais colisões ocorreram?
-//    6. Como foi feito o tratamento das colisões?
-//    7. Que sugestões você apresentaria para o tratamento das colisões?
-
+        public static Integer hash(Integer key) {
+            int h = key %10;
+            return h;
+    }
 }
