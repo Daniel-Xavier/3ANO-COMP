@@ -1,4 +1,4 @@
-package br.maua;
+package br.maua.parte.a;
 
 public class Aluno {
 

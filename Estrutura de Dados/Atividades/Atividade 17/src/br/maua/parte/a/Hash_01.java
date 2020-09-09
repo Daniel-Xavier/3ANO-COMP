@@ -1,4 +1,6 @@
-package br.maua;
+package br.maua.parte.a;
+
+import br.maua.parte.a.Aluno;
 
 public class Hash_01 {
 
