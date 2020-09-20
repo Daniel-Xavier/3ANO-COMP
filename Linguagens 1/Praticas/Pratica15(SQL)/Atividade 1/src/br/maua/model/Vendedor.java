@@ -5,9 +5,7 @@ import br.maua.interfaces.Validator;
 import java.util.Objects;
 
 public class Vendedor implements Validator {
-    private String id;
-    private String name;
-    private String password;
+    private String id, name, password;
 
     public Vendedor(String id, String name, String password) {
         this.id = id;

@@ -2,9 +2,7 @@ package br.maua.model;
 
 public class Cliente {
 
-    private String email;
-    private String name;
-    private String id;
+    private String email, name, id;
 
     public Cliente(String email, String name, String id) {
         this.email = email;
