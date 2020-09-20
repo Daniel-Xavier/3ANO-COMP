@@ -1,6 +1,6 @@
-package com.company.testes;
+package br.maua.testes;
 
-import com.company.model.Produto;
+import br.maua.model.Produto;
 
 import java.sql.*;
 

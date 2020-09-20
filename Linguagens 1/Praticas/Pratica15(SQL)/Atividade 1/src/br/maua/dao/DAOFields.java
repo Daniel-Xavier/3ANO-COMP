@@ -1,4 +1,4 @@
-package com.company.dao;
+package br.maua.dao;
 
 public interface DAOFields {
     String getTableName();

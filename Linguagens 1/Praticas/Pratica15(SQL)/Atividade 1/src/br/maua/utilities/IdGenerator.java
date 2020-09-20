@@ -1,4 +1,4 @@
-package com.company.utilities;
+package br.maua.utilities;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

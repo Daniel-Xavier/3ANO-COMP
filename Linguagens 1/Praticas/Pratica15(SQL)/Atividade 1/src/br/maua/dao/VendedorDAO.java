@@ -1,6 +1,6 @@
-package com.company.dao;
+package br.maua.dao;
 
-import com.company.model.Vendedor;
+import br.maua.model.Vendedor;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

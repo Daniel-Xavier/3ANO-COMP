@@ -1,6 +1,6 @@
-package com.company;
+package br.maua;
 
-import com.company.model.Vendedor;
+import br.maua.model.Vendedor;
 
 public class Main {
 

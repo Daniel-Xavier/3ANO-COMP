@@ -1,4 +1,4 @@
-package com.company.model;
+package br.maua.model;
 
 public class Cliente {
 

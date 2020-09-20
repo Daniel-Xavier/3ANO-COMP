@@ -1,7 +1,6 @@
-package com.company.dao;
+package br.maua.dao;
 
-import com.company.model.Cliente;
-import com.company.model.Produto;
+import br.maua.model.Cliente;
 
 import java.sql.*;
 import java.util.ArrayList;

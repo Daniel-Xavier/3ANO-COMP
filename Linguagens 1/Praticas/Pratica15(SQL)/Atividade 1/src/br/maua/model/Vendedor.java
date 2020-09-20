@@ -1,6 +1,6 @@
-package com.company.model;
+package br.maua.model;
 
-import com.company.interfaces.Validator;
+import br.maua.interfaces.Validator;
 
 import java.util.Objects;
 

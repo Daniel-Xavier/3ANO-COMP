@@ -1,7 +1,7 @@
-package com.company.testes;
+package br.maua.testes;
 
-import com.company.dao.ProdutoDAO;
-import com.company.model.Produto;
+import br.maua.dao.ProdutoDAO;
+import br.maua.model.Produto;
 
 import java.util.ArrayList;
 import java.util.List;

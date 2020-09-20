@@ -1,6 +1,6 @@
-package com.company.model;
+package br.maua.model;
 
-import com.company.utilities.IdGenerator;
+import br.maua.utilities.IdGenerator;
 
 public class Venda {
     private Vendedor vendedor;

@@ -1,8 +1,6 @@
-package com.company.testes;
+package br.maua.testes;
 
-import com.company.utilities.IdGenerator;
-
-import java.time.LocalDateTime;
+import br.maua.utilities.IdGenerator;
 
 public class TesteUtilities {
     public static void main(String[] args) {
