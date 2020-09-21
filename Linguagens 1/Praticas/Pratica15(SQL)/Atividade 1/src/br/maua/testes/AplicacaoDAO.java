@@ -88,9 +88,11 @@ public class AplicacaoDAO {
     }
 
     private void cadastrarNovoProduto() {
+
         String nome, codigo, descricao;
         int quantidade;
         double custo, valor;
+
         System.out.println("Informe os dados:");
         codigo = scanner.next();
         nome = scanner.next();
