@@ -46,6 +46,28 @@ public class AplicacaoDAO {
         }while(alive);
     }
 
+    private void menu() {
+        System.out.println("PLUG_E_USE-1996");
+        System.out.println("1 - Produtos Cadastrados");
+        System.out.println("2 - Deletar Produto");
+        System.out.println("3 - Alterar Produto");
+        System.out.println("4 - Cadastrar Produto");
+        System.out.println("0 - Sair");
+    }
+
+    private void exibirProdutos() {
+        produtos = produtoDAO.getAll();
+        System.out.println("Produto:");
+        produtos.forEach( produto -> System.out.println(produto));
+    }
+
+    private void deletarProduto() {
+        System.out.println("Codigo do produto:");
+        String codigo = scanner.next();
+        Produto produto = new Produto(codigo);
+        produtoDAO.delete(produto);
+    }
+
     private void atualizarProduto() {
         produtos = produtoDAO.getAll();
         System.out.println("Codigo do Produto para Atualizar:");
@@ -81,25 +103,4 @@ public class AplicacaoDAO {
         ));
     }
 
-    private void deletarProduto() {
-        System.out.println("Codigo do produto:");
-        String codigo = scanner.next();
-        Produto produto = new Produto(codigo);
-        produtoDAO.delete(produto);
-    }
-
-    private void exibirProdutos() {
-        produtos = produtoDAO.getAll();
-        System.out.println("Produto:");
-        produtos.forEach( produto -> System.out.println(produto));
-    }
-
-    private void menu() {
-        System.out.println("PLUG_E_USE-1996");
-        System.out.println("1 - Produtos Cadastrados");
-        System.out.println("2 - Deletar Produto");
-        System.out.println("3 - Alterar Produto");
-        System.out.println("4 - Cadastrar Produto");
-        System.out.println("0 - Sair");
-    }
 }
