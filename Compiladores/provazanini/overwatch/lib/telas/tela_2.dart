@@ -54,7 +54,7 @@ class _Tela2State extends State<Tela2> {
               child: Image.network(widget.dadosModeloow.ratingIcon),
             ),
             Container(
-              child: Text(widget.dadosModeloow.rating.toString()),
+              child: Text("Seu Sr é:" + widget.dadosModeloow.rating.toString()),
             )
 
             //
