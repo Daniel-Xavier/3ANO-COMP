@@ -39,7 +39,7 @@ class _Tela2State extends State<Tela2> {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            " Seu Perfil ",
+            "               Seu Rank é !! ",
           ),
           backgroundColor: Colors.orange[300],
         ),
@@ -48,7 +48,7 @@ class _Tela2State extends State<Tela2> {
             //
             Container(
               child: Image.network(
-                  "https://pbs.twimg.com/media/Eh0cbo1VgAAc1zr.jpg"),
+                  'http://8gmwp015fo-flywheel.netdna-ssl.com/wp-content/uploads/sites/10/2017/10/blizzconbanners-ow.png'),
             ),
             Container(
               child: Image.network(widget.dadosModeloow.ratingIcon),
