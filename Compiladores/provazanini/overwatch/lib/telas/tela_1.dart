@@ -14,12 +14,22 @@ class Tela1 extends StatefulWidget {
 
 class _Tela1 extends State<Tela1> {
   final controlador = TextEditingController();
-  ModeloOw dados_1 = new ModeloOw();
+
+  ModeloOw dados_modeloow = new ModeloOw();
+  CompetitiveStats dados_compstats = new CompetitiveStats();
+  CareerStats dados_careerstats = new CareerStats();
+  AllHeroes dados_allheroes = new AllHeroes();
+  Assists dados_assists = new Assists();
+  Best dados_best = new Best();
+  Combat dados_combat = new Combat();
+  Game dados_game = new Game();
+  Games dados_games = new Games();
+  Ratings dados_ratings = new Ratings();
 
   Future fetchImagem() async {
     var requisicao = NetworkHelper(
         url: 'https://ow-api.com/v1/stats/pc/us/${controlador.text}/complete');
-    dados_1 = ModeloOw.fromJson(await requisicao.getData());
+    dados_modeloow = ModeloOw.fromJson(await requisicao.getData());
   }
 
   @override
@@ -54,7 +64,18 @@ class _Tela1 extends State<Tela1> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => Tela2(dados: dados_1)),
+                        builder: (context) => Tela2(
+                              dadosModeloow: dados_modeloow,
+                              dadosCompstats: dados_compstats,
+                              dadosCareerstats: dados_careerstats,
+                              dadoAllheroes: dados_allheroes,
+                              dadosAssists: dados_assists,
+                              dadosBest: dados_best,
+                              dadosCombat: dados_combat,
+                              dadosGame: dados_game,
+                              dadosGames: dados_games,
+                              dadosRatings: dados_ratings,
+                            )),
                   );
                 }),
           ],
