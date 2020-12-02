@@ -1,6 +1,7 @@
 package br.maua;
 
 import br.maua.model.Vendedor;
+import br.maua.testes.AplicacaoDAO;
 
 public class Main {
 
